@@ -11,4 +11,4 @@ everywhere = log1.intersection(log2).intersection(log3)
 
 suspicious = all_ips.difference(everywhere)
 
-print(" ".join(sorted(suspicious)))
+print(' '.join(sorted(suspicious)))
